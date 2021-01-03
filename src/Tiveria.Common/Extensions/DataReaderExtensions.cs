@@ -12,11 +12,6 @@ namespace System
             return reader.GetString(column);
         }
 
-        public static string SaveGetString(this IDataReader reader, string column, string DefaultValue = "")
-        {
-            return reader.SaveGetString(reader.GetOrdinal(column), DefaultValue);
-        }
-
         public static int SaveGetInt32(this IDataReader reader, int column, int DefaultValue = 0)
         {
             if (reader.IsDBNull(column))
