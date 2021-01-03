@@ -1,2 +1,2 @@
-# Tiveria.Common.Extensions
-Package with extension methods to standard types
+# Tiveria.Common
+Package with extension methods to standard types and other helpers
