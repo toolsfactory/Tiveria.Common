@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static partial class StringExtensions
     {

@@ -1,7 +1,8 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text.RegularExpressions;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static partial class StringExtensions
     {

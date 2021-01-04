@@ -1,5 +1,5 @@
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static class ByteExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static class TypeExtensions
     {

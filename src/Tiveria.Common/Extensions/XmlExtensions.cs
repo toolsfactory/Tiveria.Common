@@ -1,7 +1,8 @@
-﻿using System.Xml;
+﻿using System;
+using System.Xml;
 using System.Xml.Linq;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static class XmlExtensions
     {

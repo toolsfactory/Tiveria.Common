@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     /// <summary>Provides extension methods for trigonometric, logarithmic, and other common mathematical functions.</summary>
     public static class MathExtensions

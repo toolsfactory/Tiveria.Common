@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static class ExpressionExtensions
     {

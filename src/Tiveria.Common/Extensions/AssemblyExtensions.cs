@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
     public static class AssemblyExtensions
     {

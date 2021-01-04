@@ -1,4 +1,6 @@
-namespace System
+using System;
+
+namespace Tiveria.Common.Extensions
 {
     public static class GuidExtensions
     { 

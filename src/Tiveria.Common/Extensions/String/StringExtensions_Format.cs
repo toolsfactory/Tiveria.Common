@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace System
+namespace Tiveria.Common.Extensions
 {
      public static partial class StringExtensions
      {
