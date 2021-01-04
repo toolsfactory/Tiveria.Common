@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 namespace System
 {
      public static partial class StringExtensions
-    {
+     {
 
         public static bool IsNullOrWhiteSpace(this string input)
         {
