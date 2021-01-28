@@ -1,4 +1,7 @@
 
+using System;
+using System.Text;
+
 namespace Tiveria.Common.Extensions
 {
     public static class ByteExtensions
