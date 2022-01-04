@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.0</TargetFrameworks>
-    <Version>1.2.1</Version>
+    <Version>1.3.2</Version>
     <Authors>Michael Geissler</Authors>
     <Company>Tiveria Embedded Solutions GmbH</Company>
     <Description>Collection of common extensions and helpers for standard types</Description>
