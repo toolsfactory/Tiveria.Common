@@ -26,10 +26,26 @@ namespace Tiveria.Common.Extensions
             Array.Copy(source, srcindex, destination, destindex, length);
         }
 
-        public static byte[] Clone(this byte[] source, int offset, int length)
+        public static byte[] Merge(this byte[] source, byte[] with, int withlen = -1)
+        {
+            if (withlen == -1)
+                withlen = with.Length;
+
+            var newbuf = new byte[source.Length + withlen];
+
+            //for (var i = 0; i < length; i++)
+            //    destination[destindex + i] = source[srcindex + i];
+            Array.Copy(source, 0, newbuf, 0, source.Length);
+            Array.Copy(with, 0, newbuf, source.Length, withlen);
+            return newbuf;
+        }
+
+        public static byte[] Clone(this byte[] source, int offset, int length=-1)
         {
             if (offset > source.Length || offset < 0)
                 throw new ArgumentOutOfRangeException("invalid offset");
+            if (length == -1)
+                length = source.Length;
             var len = Math.Min(length, source.Length - offset);
             var result = new byte[len];
             Array.Copy(source, offset, result, 0, len);
